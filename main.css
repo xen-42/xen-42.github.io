@@ -1,0 +1,124 @@
+body {
+	font: normal normal 1em Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	background-color: #1F2349;
+	text-justify: inter-character;
+}
+
+p {
+	padding: 0em 0.5em 0em 0.5em;
+	vertical-align: text-top;
+}
+
+.main {
+	max-width:60%;
+	margin: auto;
+	background-color: #F8C8DC;
+	min-width:30em; 
+	font-size:1.4em;
+	padding: 0em 0.5em;
+}
+
+.intro {
+	display:table-row; 
+	padding:10px; 
+}
+
+.intro_blurb {
+	vertical-align: middle;
+	display:table-cell; 
+	width:50%; 
+	padding:0.8em; 
+	font-size: 2em;
+}
+
+.intro_blurb p {
+	padding: 0em;
+}
+
+.intro_img {
+	text-align: left;
+	vertical-align: middle;
+	display:table-cell; 
+	width:50%; 
+	padding:10px; 
+}
+
+.intro_img img {
+	border-radius: 50%;
+	max-width: 100%;
+}
+
+.projects {
+	margin:10px; 
+}
+
+.project {
+	/*display:table-row;*/ 
+}
+
+.project_img {
+	width:100%;
+}
+
+.column {
+	float:left;
+	width:50%;
+}
+
+.column p {
+	margin: 0px;
+	padding: 0em 1em 0em 1em;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.left {
+	/*color: maroon;*/
+	/*text-align: right;*/
+	vertical-align: top;
+	/*display:table-cell;*/ 
+	/*width:20%;*/ 
+	/*padding:10px;*/ 
+}
+
+.middle {
+	/*display:table-cell;*/ 
+	margin: auto;
+	max-width:552px; 
+	padding:0px;
+	text-align: center;
+}
+
+.right {
+	vertical-align: top;
+	text-align:justify; 
+	/*display:table-cell;*/ 
+	/*width:20%;*/ 
+	/*padding:10px;*/ 
+}
+
+div { 
+	
+}
+
+footer {
+	text-align: center;
+	padding:10px;
+}
+
+/* For mobile */
+
+@media (max-width: 1024px) { 
+	.main {
+		max-width:90%;
+	}
+	
+	.column {
+		float:none;
+		width:100%;
+	}
+}

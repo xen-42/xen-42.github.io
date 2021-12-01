@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Nicholas Connors</title>
+	<meta name="description" content="Portfolio of game dev materials by Nicholas Connors.">
+	<link rel="stylesheet" href="main.css">
+	<link rel="icon" type="image/ico" href="images/favicon.png"/>
+	<script src="https://use.fontawesome.com/03daac0de9.js"></script>
+</head>
+
+<body>
+	<div class="main">
+		<div class="intro">
+			<div class="intro_blurb">
+				<p>
+					Hi, my name is <strong> Nicholas Connors</strong>. I'm a Joint Physics and Computer Science student with a passion for game development.
+				</p>
+			</div>
+			<div class="intro_img">
+				<img src="images/avatar_large.png"/>
+			</div>
+		</div>
+		
+		<div class="projects">
+			<h1> About me </h1>
+			<p>
+				My interests are in video games and astrophysics. I especially enjoy applying physics to video games, and I'm also interested in procedural generation and AI. I have experience with Godot, LibGDX, and Unity. 
+			</p>	
+			<p>
+				Outside of computer science, I am co-author on a published paper on the <a href="https://arxiv.org/abs/2008.01105">Primordial Radius Gap and Potentially Broad Core Mass Distributions of Super-Earths and Sub-Neptunes</a>.
+			</p>
+		</div>
+		
+		<div class="projects">
+			<h1> Featured Projects </h1>
+			<div class="project">
+				<div class="left"><h3>Asteroid Arcade</h3></div>
+				<div class="middle">
+					<div style="background-color: #222222;">
+						<img src="images/asteroid3.gif" style="width: 30%; align: middle;"/>
+					</div>
+				</div>
+				<div class="right"><p> I made an android/browser game in Java using the <a href="https://libgdx.com/">LibGDX</a> framework. The player controls a spaceship with the keyboard or tilt controls and tries to survive as long as possible against waves of obstacles and the occassional mini-boss fight. They can collect coins to purchase new ships to play as.</p></div>
+			</div>
+			<div class="project">
+				<div class="left"><h3>Outer Wilds Third Person Camera (mod)</h3></div>
+				<div class="middle"><img src="images/outerwilds.png" class="project_img"/></div>
+				<div class="right"><p> I added a third-person camera to my favourite game, Outer Wilds. I used the <a href="https://github.com/pardeike/Harmony">Harmony</a> library and reflection to patch the Unity game at runtime. I also created and maintain two other mods (Daydream and Static Camera) which are available on <a href="https://outerwildsmods.com/mods/">https://outerwildsmods.com/mods/</a>.</p></div>
+			</div>
+		</div>
+		
+		<!-- Game Jam Projects -->
+		<div class="projects">
+			<h1> Game Jam Projects </h1>
+			<p> Here are just a few of the game jam games I've made. For each of them I did all the programming, music, and art with the exception of my platformer Apes Togther Strong, where I collaborated with <a href="https://twitter.com/renairemin">a friend</a> who made the main menu and end screen backgrounds, and the character sprites.
+			<div class="project">
+				<div class="left"><h3>Mockbuster Video</h3></div>
+				<div class="middle"><img src="images/mockbuster.png" class="project_img"/></div>
+				<div class="middle"><iframe frameborder="0" src="https://itch.io/embed/723569?dark=true" width="552" height="167"><a href="https://xen-dev.itch.io/mockbuster-video">Mockbuster Video (Brackey's Jam 2020.2) by Xen</a></iframe></div>
+				<div class="right"><p> The theme of this jam was "rewind". The player has to sort VHS returns and sales while also keeping track of late fees and damaged tapes, and being sure that all tapes have been properly rewound after watching. Ranked 81st overall and got <b>46th place in game design</b> out of <b>1,812 entries</b>. </p></div>
+			</div>
+			<div class="project">
+				<div class="left"><h3>Apes Together Strong</h3></div>
+				<div class="middle"><img src="images/apes.png" class="project_img"/></div>
+				<div class="middle"><iframe frameborder="0" src="https://itch.io/embed/928452?dark=true" width="552" height="167"><a href="https://xen-dev.itch.io/apes-together-strong">Apes Together Strong by Xen</a></iframe></div>
+				<div class="right"><p> The theme of this jam was "stronger together". The player can switch between controlling 3 separate characters in each level, each with different abilities needed to collect all the bananas needed to open the doors to the next level. Ranked 220th place overall and <b>83rd place in game design</b> out of <b>1,859 entries</b>. </p></div>
+			</div>
+			<div class="project">
+				<div class="left"><h3>Elementary</h3></div>
+				<div class="middle"><img src="images/elementary.png" class="project_img"/></div>
+				<div class="middle"><iframe frameborder="0" src="https://itch.io/embed/858448?dark=true" width="552" height="167"><a href="https://xen-dev.itch.io/elementary">Elementary by Xen</a></iframe></div>
+				<div class="right"><p> The theme of this jam was "retro" with an added restriction that the game could not exceed a 96x96 pixel resolution. The player moves atoms around in a grid, and has to bind them together into the required molecules to progress to the next level. They must make use of different tiles with functions like teleporting atoms or rotating the molecules to achieve their goal. I wasn't able to submit to the jam in time due to midterms. </p></div>
+			</div>
+		</div>
+		
+		<!-- Prototypes -->
+		<div class="projects">
+			<h1> Demos </h1>
+			<p> These are some small prototypes I've made in Godot</p>
+			<div class="row">
+				<div class="column">
+					<div class="left"><h3>Waves and bouyancy</h3></div>
+					<div class="middle"><img src="images/waves.gif" class="project_img"/></div>
+					<div class="right"><p> I simulated <a href="https://en.wikipedia.org/wiki/Trochoidal_wave">Trochoidal waves</a> using vertex shaders to make the graphical effect. To simulate bouyancy, I calculate the wave height at predetermined points on any bouyant object and use the depth to determine the force to apply.</p></div>
+				</div>
+				<div class="column">
+					<div class="left"><h3>Portal gun</h3></div>
+					<div class="middle"><img src="images/portal.gif" class="project_img"/></div>
+					<div class="right"><p> I recreated the portal gun from Portal using teleportation and camera trickery. </p></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<div class="left"><h3>Voxel terrain</h3></div>
+					<div class="middle"><img src="images/voxels.gif" class="project_img"/></div>
+					<div class="right"><p> I made voxel terrain from scratch, and used it to create different procedurally generated environments. I populated one of these environments with flying creatures that flock using the <a href="http://www.red3d.com/cwr/boids/">Boids</a> algorithm, and flap their wings using vertex shaders.</p></div>
+				</div>
+				<div class="column">
+					<div class="left"><h3>PyTorch in Godot</h3></div>
+					<div class="middle"><img src="images/ai.gif" class="project_img"/></div>
+					<div class="right"><p> I used <a href="https://godotengine.org/asset-library/asset/179">PythonScript</a> to incorporate PyTorch into Godot, and used it to create and train a neural network in playing a simple game of snake.</p></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<div class="left"><h3>Procedural planets</h3></div>
+					<div class="middle"><img src="images/planets.gif" class="project_img"/></div>
+					<div class="right"><p> I created 3D icosphere meshes and used random noise to set their terrain structure, then added gravitational forces to put them in orbit. </p></div>
+				</div>
+				<div class="column">
+					<div class="left"><h3>Conway's Game of Life</h3></div>
+					<div class="middle"><img src="images/conways.gif" class="project_img"/></div>
+					<div class="right"><p> I made Conway's Game of Life with vertical and horizontal wrapping. Then I used a raymarching shader to project it onto a torus.</p></div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<p> 
+			I have more projects on my <a href="https://github.com/xen-42">GitHub <i class="fa fa-github" aria-hidden="true"></i></a>
+			
+			</br>
+			
+			<a href="https://www.linkedin.com/in/nicholas-j-connors-788923173/">LinkedIn <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+			
+			<a href="https://twitter.com/xen_42">Twitter <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+			
+			<a href="https://www.youtube.com/channel/UCPsSoOCRNIj-eo2UbXfcdAw">Youtube <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+			</p>
+		</footer>
+	</div>
+</body>
+</html>
